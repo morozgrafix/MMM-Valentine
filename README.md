@@ -21,7 +21,7 @@ git clone https://github.com/morozgrafix/MMM-Valentine.git
 
 Configure the module in your `config.js` file.
 
-**Note:** After starting the Mirror, it will take a few seconds before the valentine themed icons begins to fall ...
+**Note:** After starting the Mirror, it will take a few seconds before the valentine themed icons begin to fall ...
 
 ## Using the module
 
