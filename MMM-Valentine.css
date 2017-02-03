@@ -1,0 +1,66 @@
+.MMM-Valentine .valentine-wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.MMM-Valentine .valentine-heart {
+    position: absolute;
+    top: -25%;
+    left: 50%;
+    width: 20%;
+
+    animation-name: valentine-drop;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+
+}
+
+.MMM-Valentine .valentine-heart div {
+    position: absolute;
+
+    width: 20px;
+    height: 20px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    animation-name: valentine-jiggle;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+}
+
+.MMM-Valentine .heart1 {background-image: url('images/image1.png');}
+.MMM-Valentine .heart2 {background-image: url('images/image2.png');}
+.MMM-Valentine .heart3 {background-image: url('images/image3.png');}
+.MMM-Valentine .heart4 {background-image: url('images/image4.png');}
+.MMM-Valentine .heart5 {background-image: url('images/image5.png');}
+.MMM-Valentine .heart6 {background-image: url('images/image6.png');}
+.MMM-Valentine .heart7 {background-image: url('images/image7.png');}
+.MMM-Valentine .heart8 {background-image: url('images/image8.png');}
+.MMM-Valentine .heart9 {background-image: url('images/image9.png');}
+.MMM-Valentine .heart10 {background-image: url('images/image10.png');}
+.MMM-Valentine .heart11 {background-image: url('images/image11.png');}
+.MMM-Valentine .heart12 {background-image: url('images/image12.png');}
+.MMM-Valentine .heart13 {background-image: url('images/image13.png');}
+.MMM-Valentine .heart14 {background-image: url('images/image14.png');}
+.MMM-Valentine .heart15 {background-image: url('images/image15.png');}
+
+
+
+@keyframes valentine-drop {
+    from {top: -25%}
+    to {top: 125%}
+}
+
+@keyframes valentine-jiggle {
+    0% {left: 0}
+    20% {left: 80%}
+    30% {left: 20%}
+    50% {left: 100%}
+    70% {left: 0}
+    85% {left: 60%}
+    100% {left: 0}
+}
