@@ -54,7 +54,7 @@ The following property can be configured:
 		<tr>
 			<td><code>valentinesCount</code></td>
 			<td>The number of valentine themed icons to fall. More icons are havier for the cpu, so don't go wild.
-				<br><b>Default value:</b> <code>100</code>
+				<br><b>Default value:</b> <code>50</code>
 			</td>
 		</tr>
 		<tr>

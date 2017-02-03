@@ -9,8 +9,8 @@
 Module.register("MMM-Valentine",{
 
 	defaults: {
-		valentinesCount: 100,
-		valentinesSize: 1.50
+		valentinesCount: 50,
+		valentinesSize: 1.00
 	},
 
 	getStyles: function() {
