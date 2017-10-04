@@ -19,7 +19,7 @@ Module.register("MMM-Valentine",{
 
 	getDom: function() {
 		var wrapper = document.createElement("div")
-		wrapper.className = "valentine-wrapper"
+		wrapper.className = "valentine-wrapper";
 
 		var heart, jiggle, size, rotation;
 
@@ -44,7 +44,6 @@ Module.register("MMM-Valentine",{
 
 			wrapper.appendChild(heart);
 		}
-		Log.log(wrapper);
 		return wrapper;
 	}
 
